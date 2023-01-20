@@ -1,0 +1,31 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background: none;
+}
+
+#root,
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+@import './components/Header/Header.css';
+@import './components/IntroSection/IntroSection.css';
+@import './components/ClientSection/ClientSection.css';
+@import './components/Footer/Footer.css';

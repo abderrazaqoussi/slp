@@ -1,0 +1,29 @@
+header {
+  width: 85%;
+  padding-block: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Website-Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.Nav-Container {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.Nav-Container a {
+  color: black;
+}
+
+.Nav-Container a:hover {
+  opacity: 0.5;
+}

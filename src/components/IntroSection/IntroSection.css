@@ -1,0 +1,47 @@
+.Intro-Section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.Intro-Section .Image-Wrapper {
+  width: 55%;
+  max-height: 500px;
+  border-radius: 0 0 0 50%;
+  overflow: hidden;
+}
+
+.Intro-Section .Intro-Aside {
+  width: 45%;
+  padding-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Intro-Section .Intro-Aside .Intro-Aside-Title {
+  font-size: 2rem;
+}
+
+.Intro-Section .Intro-Aside .Intro-Aside-Paragraph {
+  font-size: 0.9rem;
+}
+
+.Intro-Aside-Button {
+  width: max-content;
+  padding: 1rem 1.5rem;
+  border-radius: 45px;
+  color: aliceblue;
+  font-weight: 600;
+  background: #2639ed;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.Intro-Aside-Button:hover {
+  box-shadow: none;
+  opacity: 0.9;
+  cursor: pointer;
+}
