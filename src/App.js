@@ -1,17 +1,20 @@
 import Header from './components/Header'
-import IntroSection from './components/IntroSection'
-import ClientSection from './components/ClientSection'
-import OurServiceSection from './components/OurServiceSection'
-
+import HeroHeadlineSection from './components/HeroHeadlineSection'
+import OurClientSection from './components/OurClientSection'
+import HowCanWeHelpSection from './components/HowCanWeHelpSection'
+import HappyClientSection from './components/HappyClientSection'
+import NewsletterSection from './components/NewsletterSection'
 import Footer from './components/Footer'
 
 function App() {
   return (
     <>
       <Header />
-      <IntroSection />
-      <ClientSection />
-      <OurServiceSection />
+      <HeroHeadlineSection />
+      <OurClientSection />
+      <HowCanWeHelpSection />
+      <HappyClientSection />
+      <NewsletterSection />
       <Footer />
     </>
   )

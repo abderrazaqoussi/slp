@@ -1,8 +1,14 @@
 import React from 'react'
+import HeroHeadline from './../../assets/backgrounds/HeroHeadline.svg'
 
 export default function index() {
   return (
-    <section className='Intro-Section'>
+    <section
+      className='Intro-Section'
+      style={{
+        background: `url(${HeroHeadline})`,
+      }}
+    >
       <aside className='Intro-Aside'>
         <h1 className='Intro-Aside-Title'>A Digital Product Agency</h1>
         <p className='Intro-Aside-Paragraph'>{`Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.`}</p>

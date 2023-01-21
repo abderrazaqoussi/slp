@@ -13,16 +13,18 @@
   border: none;
   outline: none;
   text-decoration: none;
-  background: none;
+  /* background: none; */
+  background-repeat: no-repeat;
 }
 
 #root,
 body {
   width: 100%;
+  /* max-width: 100vw; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 100px;
+  align-items: flex-end;
+  gap: 20px;
 }
 
 p {
@@ -30,7 +32,9 @@ p {
 }
 
 @import './components/Header/Header.css';
-@import './components/IntroSection/IntroSection.css';
-@import './components/ClientSection/ClientSection.css';
-@import './components/OurServiceSection/OurServiceSection.css';
+@import './components/HappyClientSection/HappyClientSection.css';
+@import './components/HeroHeadlineSection/HeroHeadlineSection.css';
+@import './components/HowCanWeHelpSection/HowCanWeHelpSection.css';
+@import './components/NewsletterSection/NewsletterSection.css';
+@import './components/OurClientSection/OurClientSection.css';
 @import './components/Footer/Footer.css';

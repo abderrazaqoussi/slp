@@ -1,9 +1,15 @@
 import Card from './Card'
 import { servicesData } from './../../assets/data'
+import HowCanWeHelp from './../../assets/backgrounds/HowCanWeHelp.svg'
 
 export default function index() {
   return (
-    <section className='Services-Section'>
+    <section
+      className='Services-Section'
+      style={{
+        background: `url(${HowCanWeHelp})`,
+      }}
+    >
       <aside className='Services-Section-Description'>
         <h2>How can we help your Business ?</h2>
         <p>
