@@ -1,0 +1,78 @@
+.Services-Section {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Aside Style */
+.Services-Section-Description {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.Services-Section-Description h2 {
+  width: 80%;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.Services-Section-Description p {
+  font-size: 0.9rem;
+}
+
+/* Cards Style */
+.Cards-Wrapper {
+  width: 55%;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* background-color: aqua; */
+}
+
+.Card-Container {
+  width: 250px;
+  padding: 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  gap: 30px;
+}
+
+.Card-Container:first-child {
+  margin-top: 40px;
+}
+
+.Card-Container h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.Card-Container p {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.Card-Icon-Wrapper {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+}
+
+.Card-Icon-Wrapper svg {
+  width: 35px;
+  height: 35px;
+  margin: auto;
+}

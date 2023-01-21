@@ -1,9 +1,8 @@
-export default function WalletIcon() {
+export default function WalletIcon({ color }) {
   return (
     <svg
-      stroke='currentColor'
-      fill='currentColor'
-      stroke-width='0'
+      fill={color}
+      strokeWidth='0'
       viewBox='0 0 24 24'
       height='1em'
       width='1em'

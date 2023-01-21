@@ -25,7 +25,12 @@ body {
   gap: 100px;
 }
 
+p {
+  color: #565656;
+}
+
 @import './components/Header/Header.css';
 @import './components/IntroSection/IntroSection.css';
 @import './components/ClientSection/ClientSection.css';
+@import './components/OurServiceSection/OurServiceSection.css';
 @import './components/Footer/Footer.css';
