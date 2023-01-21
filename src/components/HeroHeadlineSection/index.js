@@ -6,7 +6,7 @@ export default function index() {
     <section
       className='Intro-Section'
       style={{
-        background: `url(${HeroHeadline})`,
+        background: `url(${HeroHeadline}) no-repeat`,
       }}
     >
       <aside className='Intro-Aside'>
