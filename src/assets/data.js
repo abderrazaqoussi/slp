@@ -29,3 +29,74 @@ export const servicesData = [
     color: '#00DA71',
   },
 ]
+
+export const footerData = [
+  {
+    title: 'What We Do',
+    nav: [
+      {
+        name: 'Web Design',
+        link: '#',
+      },
+      {
+        name: 'App Design',
+        link: '#',
+      },
+      {
+        name: 'Social Media Manage',
+        link: '#',
+      },
+      {
+        name: 'Market Analysis Project',
+        link: '#',
+      },
+    ],
+  },
+  {
+    title: 'Company',
+    nav: [
+      {
+        name: 'About Us',
+        link: '#',
+      },
+      {
+        name: 'Career',
+        link: '#',
+      },
+      {
+        name: 'Become Investor',
+        link: '#',
+      },
+    ],
+  },
+  {
+    title: 'Support',
+    nav: [
+      {
+        name: 'FAQ',
+        link: '#',
+      },
+      {
+        name: 'Policy',
+        link: '#',
+      },
+      {
+        name: 'Business',
+        link: '#',
+      },
+    ],
+  },
+  {
+    title: 'Contact',
+    nav: [
+      {
+        name: 'WhatsApp',
+        link: '#',
+      },
+      {
+        name: 'Support 24',
+        link: '#',
+      },
+    ],
+  },
+]

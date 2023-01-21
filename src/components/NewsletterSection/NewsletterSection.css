@@ -3,12 +3,13 @@
   height: 387px;
   display: grid;
   place-items: center;
+  margin-inline: auto;
 }
 
 .NewsLetter-Wrapper {
   width: 90%;
   height: 292px;
-  margin-right: 4rem;
+  /* margin-right: 4rem; */
   border-radius: 100px;
   background-color: #f4f9ff;
   display: flex;

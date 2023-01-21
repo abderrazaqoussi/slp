@@ -1,0 +1,72 @@
+footer {
+  width: 85%;
+  display: grid;
+  place-items: center;
+  margin-inline: auto;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid #f1f1f1;
+}
+
+footer .Footer-Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .Website-Logo {
+  justify-content: flex-start;
+}
+
+.Footer-Detaills {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.Footer-Detaills p {
+  font-size: 0.9rem;
+}
+
+.Footer-Detaills nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+footer aside {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+footer .Footer-Card-Container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Footer-Card-Container h1 {
+  font-size: 1rem;
+}
+
+.Footer-Card-Container section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.Footer-Card-Container section a {
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+footer .Made-By {
+  margin-top: 3rem;
+  border-top: 1px solid #f1f1f1;
+  font-size: 0.9rem;
+  color: #a4a4a4;
+  padding-block: 1rem;
+}
