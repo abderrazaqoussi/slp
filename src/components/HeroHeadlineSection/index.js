@@ -1,4 +1,3 @@
-import React from 'react'
 import HeroHeadline from './../../assets/backgrounds/HeroHeadline.svg'
 
 export default function index() {
@@ -12,7 +11,9 @@ export default function index() {
       <aside className='Intro-Aside'>
         <h1 className='Intro-Aside-Title'>A Digital Product Agency</h1>
         <p className='Intro-Aside-Paragraph'>{`Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.`}</p>
-        <button className='Intro-Aside-Button'>Contact Now</button>
+        <button className='Intro-Aside-Button' aria-label='contact now btn'>
+          Contact Now
+        </button>
       </aside>
       <div className='Image-Wrapper'>
         <img

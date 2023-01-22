@@ -1,4 +1,4 @@
-footer {
+.Page-Footer {
   width: 85%;
   display: grid;
   place-items: center;
@@ -8,13 +8,13 @@ footer {
   border-top: 1px solid #f1f1f1;
 }
 
-footer .Footer-Container {
+.Page-Footer .Footer-Container {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-footer .Website-Logo {
+.Page-Footer .Website-Logo {
   justify-content: flex-start;
 }
 
@@ -35,13 +35,13 @@ footer .Website-Logo {
   gap: 15px;
 }
 
-footer aside {
+.Page-Footer aside {
   display: flex;
   justify-content: center;
   gap: 40px;
 }
 
-footer .Footer-Card-Container {
+.Page-Footer .Footer-Card-Container {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -63,7 +63,7 @@ footer .Footer-Card-Container {
   color: #000000;
 }
 
-footer .Made-By {
+.Page-Footer .Made-By {
   margin-top: 3rem;
   border-top: 1px solid #f1f1f1;
   font-size: 0.9rem;

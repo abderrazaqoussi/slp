@@ -7,7 +7,7 @@ export default function Twitter() {
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
     >
-      <g clip-path='url(#clip0_2_631)'>
+      <g clipPath='url(#clip0_2_631)'>
         <path
           d='M18.0002 35.9997C27.9412 35.9997 36 27.9409 36 17.9998C36 8.0588 27.9412 0 18.0002 0C8.05917 0 0.000366211 8.0588 0.000366211 17.9998C0.000366211 27.9409 8.05917 35.9997 18.0002 35.9997Z'
           fill='#55ACEE'

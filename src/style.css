@@ -29,6 +29,7 @@ body {
 
 p {
   color: #565656;
+  font-size: 0.9rem;
 }
 
 @import './components/Header/Header.css';

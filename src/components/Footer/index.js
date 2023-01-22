@@ -5,7 +5,7 @@ import { footerData } from './../../assets/data'
 
 export default function index() {
   return (
-    <footer>
+    <footer className='Page-Footer'>
       <div className='Footer-Container'>
         <section className='Footer-Detaills'>
           <div className='Website-Logo'>
@@ -18,13 +18,13 @@ export default function index() {
             online business services.
           </p>
           <nav>
-            <a href='#'>
+            <a href='#' aria-label='Facebook link'>
               <Facebook />
             </a>
-            <a href='#'>
+            <a href='#' aria-label='Twitter link'>
               <Twitter />
             </a>
-            <a href='#'>
+            <a href='#' aria-label='Linkedin link'>
               <Linkedin />
             </a>
           </nav>
@@ -32,11 +32,22 @@ export default function index() {
         <aside>
           {footerData.map((group) => {
             return (
-              <div className='Footer-Card-Container'>
+              <div
+                key={footerData.indexOf(group)}
+                className='Footer-Card-Container'
+              >
                 <h1>{group.title}</h1>
                 <section>
                   {group.nav.map((el) => {
-                    return <a href={el.link}>{el.name}</a>
+                    return (
+                      <a
+                        key={group.nav.indexOf(el)}
+                        href={el.link}
+                        aria-label={`${el.name} link`}
+                      >
+                        {el.name}
+                      </a>
+                    )
                   })}
                 </section>
               </div>

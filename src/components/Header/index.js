@@ -19,7 +19,11 @@ export default function index() {
       <nav className='Nav-Container'>
         {navigationItems.map((item) => {
           return (
-            <a key={navigationItems.indexOf(item)} href={item.link}>
+            <a
+              key={navigationItems.indexOf(item)}
+              href={item.link}
+              aria-label={`${item.name} link`}
+            >
               {item.name}
             </a>
           )

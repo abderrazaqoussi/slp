@@ -28,7 +28,9 @@ export default function index() {
               id='email'
               placeholder='Enter your email address..'
             />
-            <button className='Input-Button'>Contact Now</button>
+            <button className='Input-Button' aria-label='contact now btn'>
+              Contact Now
+            </button>
           </div>
         </div>
       </article>
